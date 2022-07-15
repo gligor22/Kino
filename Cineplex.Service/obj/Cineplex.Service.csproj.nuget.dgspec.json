@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Service\\Cineplex.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj",
+        "projectName": "Cineplex.Domain",
+        "projectPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj",
+        "packagesPath": "C:\\Users\\gligo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gligo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Repository\\Cineplex.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Repository\\Cineplex.Repository.csproj",
+        "projectName": "Cineplex.Repository",
+        "projectPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Repository\\Cineplex.Repository.csproj",
+        "packagesPath": "C:\\Users\\gligo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gligo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj": {
+                "projectPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Service\\Cineplex.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Service\\Cineplex.Service.csproj",
+        "projectName": "Cineplex.Service",
+        "projectPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Service\\Cineplex.Service.csproj",
+        "packagesPath": "C:\\Users\\gligo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gligo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj": {
+                "projectPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Domain\\Cineplex.Domain.csproj"
+              },
+              "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Repository\\Cineplex.Repository.csproj": {
+                "projectPath": "C:\\Users\\gligo\\source\\repos\\EShop\\Kino\\Cineplex.Repository\\Cineplex.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

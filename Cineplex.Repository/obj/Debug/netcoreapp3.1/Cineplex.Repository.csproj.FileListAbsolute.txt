@@ -1,0 +1,13 @@
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\bin\Debug\netcoreapp3.1\Cineplex.Repository.deps.json
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\bin\Debug\netcoreapp3.1\Cineplex.Repository.dll
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\bin\Debug\netcoreapp3.1\Cineplex.Repository.pdb
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\bin\Debug\netcoreapp3.1\Cineplex.Domain.dll
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\bin\Debug\netcoreapp3.1\Cineplex.Domain.pdb
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.csproj.AssemblyReference.cache
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.AssemblyInfoInputs.cache
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.AssemblyInfo.cs
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.csproj.CoreCompileInputs.cache
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.csproj.CopyComplete
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.dll
+C:\Users\gligo\source\repos\EShop\Kino\Cineplex.Repository\obj\Debug\netcoreapp3.1\Cineplex.Repository.pdb

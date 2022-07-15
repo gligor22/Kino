@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cineplex", "Cineplex", "{24183983-A8B8-4E18-ABF7-79A237B63291}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CIneplex.Web", "CIneplex.Web\CIneplex.Web.csproj", "{D8F239F3-3E92-408D-AB42-729AC99916A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9} = {2A055C34-3DAE-4AF6-A92B-E377D820CAE9}
+		{A001C245-C304-4824-85A1-D5F4A843E043} = {A001C245-C304-4824-85A1-D5F4A843E043}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cineplex.Domain", "Cineplex.Domain\Cineplex.Domain.csproj", "{A001C245-C304-4824-85A1-D5F4A843E043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cineplex.Repository", "Cineplex.Repository\Cineplex.Repository.csproj", "{2A055C34-3DAE-4AF6-A92B-E377D820CAE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A001C245-C304-4824-85A1-D5F4A843E043} = {A001C245-C304-4824-85A1-D5F4A843E043}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cineplex.Service", "Cineplex.Service\Cineplex.Service.csproj", "{40272675-6EA0-4DD2-8B3E-14180B3C9367}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9} = {2A055C34-3DAE-4AF6-A92B-E377D820CAE9}
+		{A001C245-C304-4824-85A1-D5F4A843E043} = {A001C245-C304-4824-85A1-D5F4A843E043}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8F239F3-3E92-408D-AB42-729AC99916A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F239F3-3E92-408D-AB42-729AC99916A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F239F3-3E92-408D-AB42-729AC99916A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F239F3-3E92-408D-AB42-729AC99916A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A001C245-C304-4824-85A1-D5F4A843E043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A001C245-C304-4824-85A1-D5F4A843E043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A001C245-C304-4824-85A1-D5F4A843E043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A001C245-C304-4824-85A1-D5F4A843E043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40272675-6EA0-4DD2-8B3E-14180B3C9367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40272675-6EA0-4DD2-8B3E-14180B3C9367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40272675-6EA0-4DD2-8B3E-14180B3C9367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40272675-6EA0-4DD2-8B3E-14180B3C9367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8F239F3-3E92-408D-AB42-729AC99916A4} = {24183983-A8B8-4E18-ABF7-79A237B63291}
+		{A001C245-C304-4824-85A1-D5F4A843E043} = {24183983-A8B8-4E18-ABF7-79A237B63291}
+		{2A055C34-3DAE-4AF6-A92B-E377D820CAE9} = {24183983-A8B8-4E18-ABF7-79A237B63291}
+		{40272675-6EA0-4DD2-8B3E-14180B3C9367} = {24183983-A8B8-4E18-ABF7-79A237B63291}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F126F75-1442-45CE-9CC4-D474F00F005E}
+	EndGlobalSection
+EndGlobal

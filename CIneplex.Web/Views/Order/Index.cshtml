@@ -1,0 +1,60 @@
+﻿@model Cineplex.Domain.DTO.OrderDTO
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>User Orders</h1>
+<div class="container">
+  <div class="row m-4">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>OrderId</th>
+                    <th>UserId</th>
+                    <th scope="col">Movie Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">TiccketsPrice</th>
+                    <th  scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Tickets.Count == 0)
+                {
+                    <tr>
+                        <td colspan="5">No active Tickets</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var i in Model.Tickets)
+                    {
+                        <tr>
+                            <td>@i.OrderId</td>
+                            <td>@i.Order.UserId</td>
+                            <td>@i.Ticket.Movie.Title</td>
+                            <td>@i.Quantity</td>
+                            <td>$@i.Ticket.Price</td>
+                            <td class="btn-secondary" asp-controller="Order" asp-action="generate" asp-route-id="@i.id">Invoice</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot class="thead-dark">
+                <tr>
+                    <th scope="col">TotalPrice:</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">$@Model.TotalPrice</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="row m-4">
+        <div class="btn-outline-primary" asp-controller="Order" asp-action="InvoiceAll">EXCEL</div>
+    </div>
+
+    </div>
+    </div>

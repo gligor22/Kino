@@ -1,0 +1,62 @@
+﻿@model Cineplex.Domain.DTO.ShoppingCartDTO
+@*@using Microsoft.Extensions.Options
+@inject IOptions<Cineplex.Domain.StripeSettings> Stripe*@
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>User Shopping Cart</h1>
+<div class="container">
+  <div class="row m-4">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">ProductPrice</th>
+                    <th  scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Tickets.Count == 0)
+                {
+                    <tr>
+                        <td colspan="5">No active Products</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var i in Model.Tickets)
+                    {
+                        <tr>
+                            <td>@i.ticket.Movie.Title</td>
+                            <td>@i.Quantity</td>
+                            <td>$@i.ticket.Price</td>
+                            <td><a asp-controller="ShoppingCart" asp-action="DeleteFromShoppingCart" asp-route-id="@i.ticketId" class="btn btn-danger">Delete From ShoppingCart</a></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot class="thead-dark">
+                <tr>
+                    <th scope="col">TotalPrice:</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">$@Model.TotalPrice</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="row m-4">
+        @if (Model.TotalPrice != 0)
+        {
+           <form asp-controller="ShoppingCart" asp-action="PayyOrder" method="post">
+               <button type="submit" value="Order">Order</button>
+           </form>
+        }
+    </div>
+
+    </div>
+    </div>
